@@ -29,7 +29,7 @@ Rest disponible :
 
 ### Info Utile 
 
-Les dates sont ajouter dans l'entité uniquement au moment du flush.
+Les dates sont ajoutées dans l'entité uniquement au moment du flush.
 Donc lors d'un save, si on renvoi l'entite sans un flush, les dates ne seront pas renseignées.
 
 ### Mise en place
@@ -47,7 +47,7 @@ Toutes les entités (Sauf Revinfo) devront être annotées :
 @EntityListeners(AuditingEntityListener.class)
 ```
 
-Elles doivent hériter de la classe `AbstractEntite.java` qui regroupent les champs de révision ci-dessous, ce qui permet  
+Possibilité d'utiliser une table abstraite `AbstractEntite.java` qui regroupent les champs de révision ci-dessous, ce qui permet  
 de connaitre qui à fait quoi et quand.
 
 ```java
@@ -65,7 +65,7 @@ private Utilisateur fkUserCre;    @LastModifiedBy
 private Utilisateur fkUserMaj;
 ```
 
-L'utilisateur est récuperé directement dans le contexteSpring par la classe `HistorisationUser.java`
+L'utilisateur est récuperé directement dans le contexteSpring par la classe `HistorisationUser.java` (Actuellement pas commité)
 
 ```java
 @Component    
@@ -111,7 +111,7 @@ public class RevInfo {
 }
 ```
 
-Script de création de la table `revinfo`
+Script de création de la table `revinfo` pour info.
 
 ```sql
 CREATE SEQUENCE IF NOT EXISTS revinfo_rev_seq START WITH 1 INCREMENT BY 1;
