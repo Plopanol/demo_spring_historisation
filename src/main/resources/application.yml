@@ -1,0 +1,18 @@
+logging:
+  file:
+    path: log
+  level:
+    org:
+      springframework:
+        boot:
+          autoconfigure: debug
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+  datasource:
+    password: RDYaKiT
+    url: jdbc:postgresql://localhost:5432/historisation
+    username: postgres
