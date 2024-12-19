@@ -1,4 +1,4 @@
-package fr.cepn.Configuration;
+package fr.plopanol.Configuration;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.envers.repository.config.EnableEnversRepositories;

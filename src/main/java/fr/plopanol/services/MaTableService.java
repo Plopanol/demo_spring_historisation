@@ -1,6 +1,6 @@
-package fr.cepn.services;
+package fr.plopanol.services;
 
-import fr.cepn.entite.MaTable;
+import fr.plopanol.entite.MaTable;
 
 import java.util.List;
 import java.util.Optional;

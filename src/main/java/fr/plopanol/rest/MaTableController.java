@@ -1,7 +1,7 @@
-package fr.cepn.rest;
+package fr.plopanol.rest;
 
-import fr.cepn.entite.MaTable;
-import fr.cepn.services.MaTableService;
+import fr.plopanol.entite.MaTable;
+import fr.plopanol.services.MaTableService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;

@@ -1,6 +1,6 @@
-package fr.cepn.repositories;
+package fr.plopanol.repositories;
 
-import fr.cepn.entite.MaTable;
+import fr.plopanol.entite.MaTable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.history.RevisionRepository;
 

@@ -1,4 +1,4 @@
-package fr.cepn.entite;
+package fr.plopanol.entite;
 
 import jakarta.persistence.*;
 import org.hibernate.envers.RevisionEntity;

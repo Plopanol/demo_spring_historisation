@@ -1,7 +1,7 @@
-package fr.cepn.services;
+package fr.plopanol.services;
 
-import fr.cepn.entite.MaTable;
-import fr.cepn.repositories.MaTableRepository;
+import fr.plopanol.entite.MaTable;
+import fr.plopanol.repositories.MaTableRepository;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import org.springframework.beans.factory.annotation.Autowired;

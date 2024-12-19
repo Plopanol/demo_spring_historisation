@@ -1,4 +1,4 @@
-package fr.cepn;
+package fr.plopanol;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
