@@ -8,11 +8,12 @@ logging:
           autoconfigure: debug
 spring:
   jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
     hibernate:
       ddl-auto: create
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
   datasource:
-    password: RDYaKiT
-    url: jdbc:postgresql://localhost:5432/historisation
-    username: postgres
+    password: ''
+    url: jdbc:h2:./database;
+    username: sa

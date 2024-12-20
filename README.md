@@ -10,7 +10,8 @@ Projet de demo pour l'historisation sous Spring Boot .
 
 # Execution
 
-Créer une BDD et modifier les configuration d'accès dans `application.yml`
+BDD Embarqué H2, la BDD sera dans un fichier à la racine du projet
+Voir configuration d'accès dans `application.yml`
 
 Commande maven : `clean -U spring-boot:run`
 
